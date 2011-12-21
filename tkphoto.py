@@ -54,7 +54,7 @@ def csiupdate(params):
     return csi
 #    return gbc
 
-    def netphoto(params):
+def netphoto(params):
     "computes net photosynth from parameters and previous results"
     t=params[0]
     gamma=params[1]
